@@ -26,10 +26,6 @@ sudo apt install -f -y
 echo "Download Nx Witness client package..."
 wget https://updates.networkoptix.com/default/41837/linux/nxwitness-client-6.0.6.41837-linux_x64.deb
 
-echo "Installeer Nx Witness client..."
-sudo dpkg -i nxwitness-client-6.0.6.41837-linux_x64.deb
-sudo apt install -f -y
-
 echo "Installeer Neofetch..."
 sudo apt install neofetch -y
 
